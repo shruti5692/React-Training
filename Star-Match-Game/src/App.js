@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Game from "./components/Game"; // Import the Game component
-import "./index.css"; // Import global styles
+import Game from "./components/Game"; 
+import "./index.css"; 
 
 const App = () => {
   const [gameId, setGameId] = useState(1);
